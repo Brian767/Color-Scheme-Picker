@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#title {
+  color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin: 2em 0 0;
+}
+
+#main-container {
+    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  width: 550px;
+  height: 550px;
+}
+
+#color-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#color-seed{
+    /* padding: 0.5em; */
+    /* width: 61px;
+    height: 43px; */
+    inline-size: 61px;
+    block-size: 43px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #d1d5db;
+}
+
+#color-seed::-webkit-color-swatch {
+    border: .5px solid #313131; /* Custom inner border color & thickness */
+}
+
+
+
+.pointer {
+  cursor: pointer;
+}
